@@ -1,0 +1,83 @@
+/* Page layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add Worker link */
+.add-worker-link {
+    margin-bottom: 15px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: greenyellow;
+    color: white;
+    text-transform: capitalize;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Action buttons */
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions a,
+.actions button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 4px;
+}
+
+.actions a {
+    color: white;
+}
+
+.actions .read-btn {
+    background-color: #17a2b8;
+}
+
+.actions .edit-btn {
+    background-color: #ffc107;
+}
+
+.actions .delete-btn {
+    background-color: #dc3545;
+    color: white;
+}

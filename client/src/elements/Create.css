@@ -1,0 +1,46 @@
+#create{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 250px;
+}
+#create form {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#create form div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+#create form label {
+    width: 100px;
+    font-weight: bold;
+}
+
+#create form input {
+    flex: 1;
+    padding: 6px;
+    font-size: 14px;
+}
+
+#create  h3{
+    margin-bottom: 20px;
+}
+
+#subbtn{
+    position: absolute;
+    left: 500px;
+    margin-top: 20px;
+    background-color: greenyellow;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
